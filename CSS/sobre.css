@@ -111,3 +111,9 @@ body {
     border-radius: 5px;
     object-fit: cover;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

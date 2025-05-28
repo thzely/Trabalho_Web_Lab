@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <header class="barra_nav">
+        <nav class="barra_nav_centro">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html" class="active">Contato</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <div class="section_header">
+                <h2>Fale Conosco</h2>
+            </div>
+
+            <div class="section_coluna form_coluna"> <form action="#" method="post" class="formulario_contato">
+                    <div class="form_grupo">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="dataNascimento">Data de Nascimento:</label>
+                        <input type="date" id="dataNascimento" name="dataNascimento" required>
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seu.email@example.com" required>
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" id="endereco" name="endereco" placeholder="Rua, Número, Bairro">
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Sua Cidade">
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="estado">Estado:</label>
+                        <select id="estado" name="estado">
+                            <option value="">Selecione um Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+
+                    <div class="form_grupo">
+                        <label for="mensagem">Sua Mensagem (Opcional):</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn_enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Obrigada pela visita! &copy; Marianne Fisch 2025</p>
+    </footer>
+</body>
+</html>

@@ -110,3 +110,9 @@ body {
     font-size: 0.8em;
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

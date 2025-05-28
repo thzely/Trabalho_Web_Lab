@@ -67,7 +67,7 @@ body {
     text-shadow: 2px 2px 4px rgb(107, 107, 100);
     border-radius: 15px 15px;
     margin-bottom: 30px; 
-} 
+}
     
 .carrossel_conteudo {
     display: flex; 
@@ -93,32 +93,6 @@ body {
     line-height: 1.5; 
     max-width: 500px; 
     margin-bottom: 25px;
-}
-
-.flecha { 
-    position: absolute; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    background-color: rgba(255, 255, 255, 0.2); 
-    border: none; 
-    color: #fff; 
-    font-size: 2em; 
-    padding: 10px 15px; 
-    cursor: pointer; 
-    border-radius: 50%; 
-    transition: background-color 0.3s ease; 
-}
-
-.flecha:hover { 
-    background-color: rgba(255, 255, 255, 0.4); 
-}
-
-.flecha_esq { 
-    left: 20px; 
-} 
-
-.flecha_dir { 
-    right: 20px; 
 }
 
 .section {
@@ -208,4 +182,10 @@ body {
 
 .botao_vejamais:hover {
     background-color: #ccc;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
